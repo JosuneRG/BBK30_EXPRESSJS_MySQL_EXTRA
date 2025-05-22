@@ -1,0 +1,30 @@
+{
+  "name": "bbk30_expressjs_mysql_extra",
+  "version": "1.0.0",
+  "description": "<!-- Extra\r   Ejercicio 1\r Crea las siguientes tablas usando Express y MySQL como hemos visto en clase:\r Tabla Users\r Tabla Orders\r *Recuerda que en el caso de una relación muchos a muchos necesitarás una tabla intermedia.\r   Ejercicio 2\r Crea un endpoint para añadir un usuario nuevo y añade 2 usuarios nuevos desde postman\r Crea un endpoint para crear un pedido y añade 2 nuevos pedidos desde postman",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosuneRG/BBK30_EXPRESSJS_MySQL_EXTRA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosuneRG/BBK30_EXPRESSJS_MySQL_EXTRA/issues"
+  },
+  "homepage": "https://github.com/JosuneRG/BBK30_EXPRESSJS_MySQL_EXTRA#readme",
+  "devDependencies": {
+    "nodemo": "^1.0.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
